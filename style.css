@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: mediumpurple;
+}
+
+h2 {
+    font-weight: normal;
+    color: deepskyblue;
+    margin-left: 10px;
+}
+
+.parentdiv {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputclass {
+    width: 65%;
+    height: 25px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.buttonclass {
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: purple;
+    color: white;
+    border-radius: 4px;
+}
+
+.child2 {
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: white
+}
+
+.ninedivs {
+    background-color: darkslategray;
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+}
