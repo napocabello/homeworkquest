@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: mediumpurple;
+}
+
+h2 {
+    font-weight: normal;
+    color: deepskyblue;
+    margin-left: 10px;
+}
+
+
+.inputclass {
+    width: 65%;
+    height: 25px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+.ninedivs {
+    background-color: darkslategray;
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+}

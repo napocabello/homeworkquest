@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Нафанаилова Наташа</title>
+    <link rel="stylesheet" href="style2.css">
+    <h1>
+        КВЕСТ
+    </h1>
+    <h2>
+        Введите цифру "1" и нажмите "Enter"
+    </h2>
+</head>
+
+<body style="background-color: black">
+    <div style="height:500px; display: flex; flex-wrap: wrap">
+        <div style="height: 500px;width: 50%;display: flex;flex-wrap: wrap">
+            <input type="text" class="inputclass i1">
+            <input type="text" class="inputclass i2">
+            <input type="text" class="inputclass i3">
+            <input type="text" class="inputclass i4">
+            <input type="text" class="inputclass i5">
+            <input type="text" class="inputclass i6">
+            <input type="text" class="inputclass i7">
+            <input type="text" class="inputclass i8">
+            <input type="text" class="inputclass i9">
+        </div>
+        <div style="height: 500px;width: 50%;display: flex;flex-wrap: wrap">
+            <div class="ninedivs d1"></div>
+            <div class="ninedivs d2"></div>
+            <div class="ninedivs d3"></div>
+            <div class="ninedivs d4"></div>
+            <div class="ninedivs d5"></div>
+            <div class="ninedivs d6"></div>
+            <div class="ninedivs d7"></div>
+            <div class="ninedivs d8"></div>
+            <div class="ninedivs d9"></div>
+        </div>
+    </div>
+    <script>
+        var input1 = document.querySelector('.i1')
+        var input2 = document.querySelector('.i2')
+        var input3 = document.querySelector('.i3')
+        var input4 = document.querySelector('.i4')
+        var input5 = document.querySelector('.i5')
+        var input6 = document.querySelector('.i6')
+        var input7 = document.querySelector('.i7')
+        var input8 = document.querySelector('.i8')
+        var input9 = document.querySelector('.i9')
+        var div1 = document.querySelector('.d1')
+        var div2 = document.querySelector('.d2')
+        var div3 = document.querySelector('.d3')
+        var div4 = document.querySelector('.d4')
+        var div5 = document.querySelector('.d5')
+        var div6 = document.querySelector('.d6')
+        var div7 = document.querySelector('.d7')
+        var div8 = document.querySelector('.d8')
+        var div9 = document.querySelector('.d9')
+
+        document.onkeydown = function(event) {
+
+            if (event.keyCode == 13 & input1.value == 1)
+                div1.style.backgroundImage = 'url("капитан америка.jpg")'
+            div1.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input2.value == 1)
+                div2.style.backgroundImage = 'url("звездный лорд.jpg")'
+            div2.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input3.value == 1)
+                div3.style.backgroundImage = 'url("паучок.jpg")'
+            div3.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input4.value == 1)
+                div4.style.backgroundImage = 'url("пантера.jpeg")'
+            div4.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input5.value == 1)
+                div5.style.backgroundImage = 'url("железный человек.jpg")'
+            div5.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input6.value == 1)
+                div6.style.backgroundImage = 'url("тор.jpg")'
+            div6.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input7.value == 1)
+                div7.style.backgroundImage = 'url("ванда.jpg")'
+            div7.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input8.value == 1)
+                div8.style.backgroundImage = 'url("доктор стрэндж.jpg")'
+            div8.style.backgroundSize = 'cover'
+            if (event.keyCode == 13 & input9.value == 1)
+                div9.style.backgroundImage = 'url("вижн.jpg")'
+            div9.style.backgroundSize = 'cover'
+
+
+        }
+
+    </script>
+</body>
+
+</html>
